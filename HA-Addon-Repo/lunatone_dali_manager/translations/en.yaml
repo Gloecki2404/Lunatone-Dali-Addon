@@ -1,0 +1,13 @@
+configuration:
+  gateway_host:
+    name: Gateway address
+    description: IP address or hostname of the DALI-2 IoT gateway. Leave empty to search the local network automatically.
+  history_days:
+    name: History (days)
+    description: How long state history, bus load and measurements are kept for analysis.
+  monitor_buffer:
+    name: Bus monitor buffer
+    description: Maximum number of stored DALI frames for the bus monitor.
+  log_level:
+    name: Log level
+    description: Verbosity of the add-on log.
